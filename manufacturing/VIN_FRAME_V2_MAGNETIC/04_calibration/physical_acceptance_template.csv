@@ -1,0 +1,13 @@
+﻿test_id,required_result,measured_result,unit,frame_serial,steel_thickness_mm,paint_thickness_mm,temperature_C,orientation,instrument_uncertainty,operator,date,pass_fail
+PAD_SPREAD,<=0.01,,mm,,,,,,,,,
+GAP_P1,0.05..0.15,,mm,,,,,,,,,
+GAP_P2,0.05..0.15,,mm,,,,,,,,,
+GAP_P3,0.05..0.15,,mm,,,,,,,,,
+FREE_OPTICAL_FLATNESS,<=0.03,,mm,,,,,,,,,
+LOADED_OPTICAL_FLATNESS,<=0.03,,mm,,,,,,,,,
+REPEAT_XY_CHANGE_30_CYCLES,<=0.03,,mm,,,,,,,,,
+REPEAT_Z_CHANGE_30_CYCLES,<=0.03,,mm,,,,,,,,,
+NORMAL_HOLDING_FORCE,>=3*measured_weight_N,,N,,,,,,,,,
+VERTICAL_SHEAR_HOLDING_FORCE,>=3*measured_weight_N,,N,,,,,,,,,
+VERTICAL_DRIFT_60S,<=0.05,,mm,,,,,,,,,
+SYSTEM_MAX_XY_ERROR_PLUS_U,<=0.20,,mm,,,,,,,,,

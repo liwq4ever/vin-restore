@@ -1,0 +1,7 @@
+cadquery==2.7.0
+ezdxf==1.4.4
+opencv-contrib-python-headless==4.11.0.86
+numpy==2.3.5
+Pillow>=10
+reportlab>=4
+fonttools>=4

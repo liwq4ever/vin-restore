@@ -1,10 +1,26 @@
 # 车架号等尺寸拍摄：参考框制作包
 
-本仓库保存用于普通手机、专用App和精密参考框的首版制作资料。目标为平面钢印区域约200毫米范围内，校正照片的关键点最大二维位置偏差不超过0.2毫米。
+本仓库保存用于普通手机、专用App和精密参考框的制作资料。当前推荐打样版本为V2磁吸版：用G10玻纤环氧硬质主体替代金属框，并用背面磁贴实现免手扶固定。目标为平面钢印区域约200毫米范围内，校正照片的关键点最大二维位置偏差不超过0.2毫米。
 
 **当前是Rev A样件设计，已检查数字文件，尚未进行实体加工、手机试验和0.2毫米整机验收。设计坐标不能代替成品实测校准。**
 
-## 下载与阅读
+## V2磁吸版下载与阅读
+
+- [V2完整制作包ZIP](downloads/VIN_FRAME_V2_MAGNETIC_manufacturing_package.zip)：31项文件，含STEP、DXF、光学母版、4页A3图纸、4页制作说明及实测/验收模板。
+- [V2四页A3加工图PDF](manufacturing/VIN_FRAME_V2_MAGNETIC/01_drawings/manufacturing_drawings_A3.pdf)。
+- [V2制作与验收说明PDF](manufacturing/VIN_FRAME_V2_MAGNETIC/制作与验收说明.pdf)。
+- [V2可直接浏览的制作说明](manufacturing/VIN_FRAME_V2_MAGNETIC/制作与验收说明.md)。
+- [V2文件索引](manufacturing/VIN_FRAME_V2_MAGNETIC/README.md)。
+
+V2主体260×70×6毫米，开窗220×30毫米。三片柔性粘结钕铁硼磁贴围绕三片PEEK硬定位垫；磁片固定，硬质主体承担尺寸基准，硬垫定义车身接触面。磁片不接触承重，名义气隙0.10毫米，正式值须实测。主体估算约126克，不含磁贴、垫片和手柄。
+
+**纯软磁片直接印图案不作为≤0.2毫米项目的正式方案。V2也尚未通过实体吸附、防滑、加载形变和整机精度验收。** 适用于经过试验确认可磁吸的平面钢制区域；铝制或吸力不足部位需要其他夹具。图案ID沿用V1，但接触点、材料和名义标记面高度（约7.70毫米加涂层）已改变，必须加载独立V2实测档案，禁止沿用V1高度/热膨胀模型。
+
+![V2磁吸参考框](manufacturing/VIN_FRAME_V2_MAGNETIC/01_drawings/magnetic_design_preview.png)
+
+V2完整性清单：[SHA256SUMS.txt](manufacturing/VIN_FRAME_V2_MAGNETIC/SHA256SUMS.txt)；数字检查记录：[digital_checks.json](manufacturing/VIN_FRAME_V2_MAGNETIC/digital_checks.json)。
+
+## V1金属版历史资料
 
 - [完整制作包ZIP](downloads/VIN_FRAME_V1_manufacturing_package.zip)：包含28项文件。
 - [制作、测量与验收说明PDF](manufacturing/VIN_FRAME_V1/制作与验收说明.pdf)：5页详细流程。
