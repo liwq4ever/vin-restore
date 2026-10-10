@@ -1,7 +1,7 @@
 {
   "schema": "vin_reference_frame_nominal_v2",
   "design_id": "VIN-FRAME-V2-MAGNETIC",
-  "revision": "A",
+  "revision": "B",
   "units": "mm",
   "calibration_status": "NOMINAL_ONLY_NOT_VALID_FOR_PRODUCTION",
   "coordinate_system": "Origin XY at lower-left of front-view outline; X right; Y up; Z=0 assembled hard-contact datum A; +Z toward camera.",
@@ -49,7 +49,7 @@
   "reference_temperature_C": 20,
   "cte_x_per_K": null,
   "cte_y_per_K": null,
-  "cte_status": "Measure batch-specific directional behavior; never reuse V1 316L coefficient.",
+  "cte_status": "Measure batch-specific directional thermal and moisture behavior.",
   "dictionary": "DICT_4X4_50",
   "marker_black_square_size_mm": 12,
   "marker_border_bits": 1,
@@ -1180,5 +1180,5 @@
       "z_mm": 7.7
     }
   ],
-  "requirement": "Use serial-specific as-built XYZ measured under magnetic preload on validated steel fixture. Update height after pad rework. Same optical IDs as V1; operator must select correct serial/profile. Soft magnet is NOT the dimensional datum."
+  "requirement": "Use serial-specific as-built XYZ measured under magnetic preload on validated steel fixture. Update height after pad rework. Operator must select the correct serial-specific magnetic-frame profile. Soft magnet is NOT the dimensional datum."
 }
