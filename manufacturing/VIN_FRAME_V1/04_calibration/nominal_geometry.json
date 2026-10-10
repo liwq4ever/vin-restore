@@ -1,0 +1,1188 @@
+{
+  "schema": "vin_reference_frame_nominal_v1",
+  "design_id": "VIN-FRAME-V1",
+  "revision": "A",
+  "units": "mm",
+  "calibration_status": "NOMINAL_ONLY_NOT_VALID_FOR_PRODUCTION",
+  "coordinate_system": "Origin XY at nominal lower-left of plate front-view outline; X right, Y up; Z=0 is assembled contact datum plane, +Z toward camera.",
+  "cad_to_this_coordinate_system": "X=Xcad; Y=Ycad; Z=Zcad+1.3 (nominal only)",
+  "plate_size_mm": [
+    260.0,
+    70.0,
+    3.0
+  ],
+  "window_xywh_mm": [
+    20.0,
+    20.0,
+    220.0,
+    30.0
+  ],
+  "nominal_height_contact_to_marker_mm": 4.3,
+  "height_excludes_coating": true,
+  "reference_temperature_C": 20,
+  "nominal_cte_per_K": 1.6e-05,
+  "cte_is_material_datasheet_value_not_individual_certificate": true,
+  "dictionary": "DICT_4X4_50",
+  "marker_border_bits": 1,
+  "marker_black_square_size_mm": 12,
+  "quiet_zone_min_mm": 2,
+  "markers": [
+    {
+      "id": 0,
+      "center_xy_mm": [
+        30,
+        60.0
+      ],
+      "corners_xy_mm": [
+        [
+          24,
+          66.0
+        ],
+        [
+          36,
+          66.0
+        ],
+        [
+          36,
+          54.0
+        ],
+        [
+          24,
+          54.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 1,
+      "center_xy_mm": [
+        70,
+        60.0
+      ],
+      "corners_xy_mm": [
+        [
+          64,
+          66.0
+        ],
+        [
+          76,
+          66.0
+        ],
+        [
+          76,
+          54.0
+        ],
+        [
+          64,
+          54.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 2,
+      "center_xy_mm": [
+        110,
+        60.0
+      ],
+      "corners_xy_mm": [
+        [
+          104,
+          66.0
+        ],
+        [
+          116,
+          66.0
+        ],
+        [
+          116,
+          54.0
+        ],
+        [
+          104,
+          54.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 3,
+      "center_xy_mm": [
+        150,
+        60.0
+      ],
+      "corners_xy_mm": [
+        [
+          144,
+          66.0
+        ],
+        [
+          156,
+          66.0
+        ],
+        [
+          156,
+          54.0
+        ],
+        [
+          144,
+          54.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 4,
+      "center_xy_mm": [
+        190,
+        60.0
+      ],
+      "corners_xy_mm": [
+        [
+          184,
+          66.0
+        ],
+        [
+          196,
+          66.0
+        ],
+        [
+          196,
+          54.0
+        ],
+        [
+          184,
+          54.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 5,
+      "center_xy_mm": [
+        230,
+        60.0
+      ],
+      "corners_xy_mm": [
+        [
+          224,
+          66.0
+        ],
+        [
+          236,
+          66.0
+        ],
+        [
+          236,
+          54.0
+        ],
+        [
+          224,
+          54.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 6,
+      "center_xy_mm": [
+        30,
+        10.0
+      ],
+      "corners_xy_mm": [
+        [
+          24,
+          16.0
+        ],
+        [
+          36,
+          16.0
+        ],
+        [
+          36,
+          4.0
+        ],
+        [
+          24,
+          4.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 7,
+      "center_xy_mm": [
+        70,
+        10.0
+      ],
+      "corners_xy_mm": [
+        [
+          64,
+          16.0
+        ],
+        [
+          76,
+          16.0
+        ],
+        [
+          76,
+          4.0
+        ],
+        [
+          64,
+          4.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 8,
+      "center_xy_mm": [
+        110,
+        10.0
+      ],
+      "corners_xy_mm": [
+        [
+          104,
+          16.0
+        ],
+        [
+          116,
+          16.0
+        ],
+        [
+          116,
+          4.0
+        ],
+        [
+          104,
+          4.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 9,
+      "center_xy_mm": [
+        150,
+        10.0
+      ],
+      "corners_xy_mm": [
+        [
+          144,
+          16.0
+        ],
+        [
+          156,
+          16.0
+        ],
+        [
+          156,
+          4.0
+        ],
+        [
+          144,
+          4.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 10,
+      "center_xy_mm": [
+        190,
+        10.0
+      ],
+      "corners_xy_mm": [
+        [
+          184,
+          16.0
+        ],
+        [
+          196,
+          16.0
+        ],
+        [
+          196,
+          4.0
+        ],
+        [
+          184,
+          4.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 11,
+      "center_xy_mm": [
+        230,
+        10.0
+      ],
+      "corners_xy_mm": [
+        [
+          224,
+          16.0
+        ],
+        [
+          236,
+          16.0
+        ],
+        [
+          236,
+          4.0
+        ],
+        [
+          224,
+          4.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 12,
+      "center_xy_mm": [
+        10.0,
+        35.0
+      ],
+      "corners_xy_mm": [
+        [
+          4.0,
+          41.0
+        ],
+        [
+          16.0,
+          41.0
+        ],
+        [
+          16.0,
+          29.0
+        ],
+        [
+          4.0,
+          29.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    },
+    {
+      "id": 13,
+      "center_xy_mm": [
+        250.0,
+        35.0
+      ],
+      "corners_xy_mm": [
+        [
+          244.0,
+          41.0
+        ],
+        [
+          256.0,
+          41.0
+        ],
+        [
+          256.0,
+          29.0
+        ],
+        [
+          244.0,
+          29.0
+        ]
+      ],
+      "corner_order": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "A00_TL",
+      "type": "aruco_corner",
+      "marker_id": 0,
+      "x_mm": 24,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A00_TR",
+      "type": "aruco_corner",
+      "marker_id": 0,
+      "x_mm": 36,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A00_BR",
+      "type": "aruco_corner",
+      "marker_id": 0,
+      "x_mm": 36,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A00_BL",
+      "type": "aruco_corner",
+      "marker_id": 0,
+      "x_mm": 24,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A01_TL",
+      "type": "aruco_corner",
+      "marker_id": 1,
+      "x_mm": 64,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A01_TR",
+      "type": "aruco_corner",
+      "marker_id": 1,
+      "x_mm": 76,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A01_BR",
+      "type": "aruco_corner",
+      "marker_id": 1,
+      "x_mm": 76,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A01_BL",
+      "type": "aruco_corner",
+      "marker_id": 1,
+      "x_mm": 64,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A02_TL",
+      "type": "aruco_corner",
+      "marker_id": 2,
+      "x_mm": 104,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A02_TR",
+      "type": "aruco_corner",
+      "marker_id": 2,
+      "x_mm": 116,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A02_BR",
+      "type": "aruco_corner",
+      "marker_id": 2,
+      "x_mm": 116,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A02_BL",
+      "type": "aruco_corner",
+      "marker_id": 2,
+      "x_mm": 104,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A03_TL",
+      "type": "aruco_corner",
+      "marker_id": 3,
+      "x_mm": 144,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A03_TR",
+      "type": "aruco_corner",
+      "marker_id": 3,
+      "x_mm": 156,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A03_BR",
+      "type": "aruco_corner",
+      "marker_id": 3,
+      "x_mm": 156,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A03_BL",
+      "type": "aruco_corner",
+      "marker_id": 3,
+      "x_mm": 144,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A04_TL",
+      "type": "aruco_corner",
+      "marker_id": 4,
+      "x_mm": 184,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A04_TR",
+      "type": "aruco_corner",
+      "marker_id": 4,
+      "x_mm": 196,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A04_BR",
+      "type": "aruco_corner",
+      "marker_id": 4,
+      "x_mm": 196,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A04_BL",
+      "type": "aruco_corner",
+      "marker_id": 4,
+      "x_mm": 184,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A05_TL",
+      "type": "aruco_corner",
+      "marker_id": 5,
+      "x_mm": 224,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A05_TR",
+      "type": "aruco_corner",
+      "marker_id": 5,
+      "x_mm": 236,
+      "y_mm": 66.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A05_BR",
+      "type": "aruco_corner",
+      "marker_id": 5,
+      "x_mm": 236,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A05_BL",
+      "type": "aruco_corner",
+      "marker_id": 5,
+      "x_mm": 224,
+      "y_mm": 54.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A06_TL",
+      "type": "aruco_corner",
+      "marker_id": 6,
+      "x_mm": 24,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A06_TR",
+      "type": "aruco_corner",
+      "marker_id": 6,
+      "x_mm": 36,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A06_BR",
+      "type": "aruco_corner",
+      "marker_id": 6,
+      "x_mm": 36,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A06_BL",
+      "type": "aruco_corner",
+      "marker_id": 6,
+      "x_mm": 24,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A07_TL",
+      "type": "aruco_corner",
+      "marker_id": 7,
+      "x_mm": 64,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A07_TR",
+      "type": "aruco_corner",
+      "marker_id": 7,
+      "x_mm": 76,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A07_BR",
+      "type": "aruco_corner",
+      "marker_id": 7,
+      "x_mm": 76,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A07_BL",
+      "type": "aruco_corner",
+      "marker_id": 7,
+      "x_mm": 64,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A08_TL",
+      "type": "aruco_corner",
+      "marker_id": 8,
+      "x_mm": 104,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A08_TR",
+      "type": "aruco_corner",
+      "marker_id": 8,
+      "x_mm": 116,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A08_BR",
+      "type": "aruco_corner",
+      "marker_id": 8,
+      "x_mm": 116,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A08_BL",
+      "type": "aruco_corner",
+      "marker_id": 8,
+      "x_mm": 104,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A09_TL",
+      "type": "aruco_corner",
+      "marker_id": 9,
+      "x_mm": 144,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A09_TR",
+      "type": "aruco_corner",
+      "marker_id": 9,
+      "x_mm": 156,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A09_BR",
+      "type": "aruco_corner",
+      "marker_id": 9,
+      "x_mm": 156,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A09_BL",
+      "type": "aruco_corner",
+      "marker_id": 9,
+      "x_mm": 144,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A10_TL",
+      "type": "aruco_corner",
+      "marker_id": 10,
+      "x_mm": 184,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A10_TR",
+      "type": "aruco_corner",
+      "marker_id": 10,
+      "x_mm": 196,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A10_BR",
+      "type": "aruco_corner",
+      "marker_id": 10,
+      "x_mm": 196,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A10_BL",
+      "type": "aruco_corner",
+      "marker_id": 10,
+      "x_mm": 184,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A11_TL",
+      "type": "aruco_corner",
+      "marker_id": 11,
+      "x_mm": 224,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A11_TR",
+      "type": "aruco_corner",
+      "marker_id": 11,
+      "x_mm": 236,
+      "y_mm": 16.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A11_BR",
+      "type": "aruco_corner",
+      "marker_id": 11,
+      "x_mm": 236,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A11_BL",
+      "type": "aruco_corner",
+      "marker_id": 11,
+      "x_mm": 224,
+      "y_mm": 4.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A12_TL",
+      "type": "aruco_corner",
+      "marker_id": 12,
+      "x_mm": 4.0,
+      "y_mm": 41.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A12_TR",
+      "type": "aruco_corner",
+      "marker_id": 12,
+      "x_mm": 16.0,
+      "y_mm": 41.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A12_BR",
+      "type": "aruco_corner",
+      "marker_id": 12,
+      "x_mm": 16.0,
+      "y_mm": 29.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A12_BL",
+      "type": "aruco_corner",
+      "marker_id": 12,
+      "x_mm": 4.0,
+      "y_mm": 29.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A13_TL",
+      "type": "aruco_corner",
+      "marker_id": 13,
+      "x_mm": 244.0,
+      "y_mm": 41.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A13_TR",
+      "type": "aruco_corner",
+      "marker_id": 13,
+      "x_mm": 256.0,
+      "y_mm": 41.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A13_BR",
+      "type": "aruco_corner",
+      "marker_id": 13,
+      "x_mm": 256.0,
+      "y_mm": 29.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "A13_BL",
+      "type": "aruco_corner",
+      "marker_id": 13,
+      "x_mm": 244.0,
+      "y_mm": 29.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C00_0",
+      "type": "checker_corner",
+      "tile_id": 0,
+      "x_mm": 47,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C00_1",
+      "type": "checker_corner",
+      "tile_id": 0,
+      "x_mm": 50,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C00_2",
+      "type": "checker_corner",
+      "tile_id": 0,
+      "x_mm": 53,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C01_0",
+      "type": "checker_corner",
+      "tile_id": 1,
+      "x_mm": 87,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C01_1",
+      "type": "checker_corner",
+      "tile_id": 1,
+      "x_mm": 90,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C01_2",
+      "type": "checker_corner",
+      "tile_id": 1,
+      "x_mm": 93,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C02_0",
+      "type": "checker_corner",
+      "tile_id": 2,
+      "x_mm": 127,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C02_1",
+      "type": "checker_corner",
+      "tile_id": 2,
+      "x_mm": 130,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C02_2",
+      "type": "checker_corner",
+      "tile_id": 2,
+      "x_mm": 133,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C03_0",
+      "type": "checker_corner",
+      "tile_id": 3,
+      "x_mm": 167,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C03_1",
+      "type": "checker_corner",
+      "tile_id": 3,
+      "x_mm": 170,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C03_2",
+      "type": "checker_corner",
+      "tile_id": 3,
+      "x_mm": 173,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C04_0",
+      "type": "checker_corner",
+      "tile_id": 4,
+      "x_mm": 207,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C04_1",
+      "type": "checker_corner",
+      "tile_id": 4,
+      "x_mm": 210,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C04_2",
+      "type": "checker_corner",
+      "tile_id": 4,
+      "x_mm": 213,
+      "y_mm": 60.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C05_0",
+      "type": "checker_corner",
+      "tile_id": 5,
+      "x_mm": 47,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C05_1",
+      "type": "checker_corner",
+      "tile_id": 5,
+      "x_mm": 50,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C05_2",
+      "type": "checker_corner",
+      "tile_id": 5,
+      "x_mm": 53,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C06_0",
+      "type": "checker_corner",
+      "tile_id": 6,
+      "x_mm": 87,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C06_1",
+      "type": "checker_corner",
+      "tile_id": 6,
+      "x_mm": 90,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C06_2",
+      "type": "checker_corner",
+      "tile_id": 6,
+      "x_mm": 93,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C07_0",
+      "type": "checker_corner",
+      "tile_id": 7,
+      "x_mm": 127,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C07_1",
+      "type": "checker_corner",
+      "tile_id": 7,
+      "x_mm": 130,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C07_2",
+      "type": "checker_corner",
+      "tile_id": 7,
+      "x_mm": 133,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C08_0",
+      "type": "checker_corner",
+      "tile_id": 8,
+      "x_mm": 167,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C08_1",
+      "type": "checker_corner",
+      "tile_id": 8,
+      "x_mm": 170,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C08_2",
+      "type": "checker_corner",
+      "tile_id": 8,
+      "x_mm": 173,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C09_0",
+      "type": "checker_corner",
+      "tile_id": 9,
+      "x_mm": 207,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C09_1",
+      "type": "checker_corner",
+      "tile_id": 9,
+      "x_mm": 210,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    },
+    {
+      "feature_id": "C09_2",
+      "type": "checker_corner",
+      "tile_id": 9,
+      "x_mm": 213,
+      "y_mm": 10.0,
+      "z_mm": 4.3
+    }
+  ],
+  "pad_centers_xy_mm": [
+    [
+      10.0,
+      10.0
+    ],
+    [
+      250.0,
+      10.0
+    ],
+    [
+      130.0,
+      60.0
+    ]
+  ],
+  "mount_centers_xy_mm": [
+    [
+      10.0,
+      22.0
+    ],
+    [
+      10.0,
+      48.0
+    ],
+    [
+      250.0,
+      22.0
+    ],
+    [
+      250.0,
+      48.0
+    ]
+  ],
+  "requirement": "Replace nominal feature xyz and height by measured, serial-specific values. Do not set calibrated=true from CAD."
+}

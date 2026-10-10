@@ -1,0 +1,13 @@
+# Preserve manufacturing payload bytes so supplied SHA256 sums remain valid.
+manufacturing/** -text whitespace=-blank-at-eof
+manufacturing/**/*.step whitespace=-trailing-space,-blank-at-eof
+manufacturing/**/*.dxf whitespace=-trailing-space,-blank-at-eof
+manufacturing/**/*.csv whitespace=cr-at-eol
+*.pdf binary
+*.png binary
+*.stl binary
+*.ttf binary
+*.zip binary
+downloads/*.zip -text
+README.md text eol=lf
+.gitattributes text eol=lf

@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-10",
+  "status": "DIGITAL_FILES_CHECKED_PHYSICAL_PROTOTYPE_NOT_TESTED",
+  "cadquery": "2.7.0",
+  "opencv": "4.11.0",
+  "cad_solids_valid": true,
+  "models": [
+    "metal_frame",
+    "peek_contact_pad",
+    "handle"
+  ],
+  "body_bbox_mm": [
+    260.0,
+    70.0,
+    3.0
+  ],
+  "body_volume_mm3": 34689.306,
+  "estimated_body_mass_g_at_8g_cm3": 277.5,
+  "nominal_geometry_feature_count": 86,
+  "aruco_ids_detected": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "synthetic_detection_scale_px_per_mm": 10,
+  "synthetic_max_corner_error_px": 0.0817,
+  "synthetic_comparison_pixel_convention": "OpenCV pixel centers +0.5 compared with rendered pixel-cell boundaries; not an App processing prescription",
+  "synthetic_test_is_not_physical_accuracy_validation": true,
+  "artwork_does_not_cross_window_or_handle_mount_footprints": true,
+  "limitations": [
+    "CAD is nominal, not as-built calibration",
+    "No physical flatness or contact test",
+    "No camera or system 0.2mm accuracy validation",
+    "No manufacturing supplier review",
+    "Coatings, screw threads and screws not modeled"
+  ]
+}
